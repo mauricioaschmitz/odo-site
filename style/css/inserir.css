@@ -323,7 +323,7 @@ body {
 		filter:none !important;
 		-ms-filter:none !important;
 		text-align: left;
-		font-size:30px;
+		font-size:13px !important;
 		margin:0;
 		padding:0;
 		text-decoration: none !important;

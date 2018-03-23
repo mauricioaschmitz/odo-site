@@ -24,8 +24,8 @@
     <div class="col-md-10">
       <select class="form-control custom-select" name="alteracao_forma_disco_esq">
         <option value="" selected>Selecionar...</option>
-        <option value="">Não</option>
-        <option value="">Sim</option>
+        <option value="Não">Não</option>
+        <option value="Sim">Sim</option>
       </select>
     </div>
   </div>
@@ -34,11 +34,11 @@
     <div class="col-md-10">
       <select class="form-control custom-select" name="deslocamento_disco_esq">
         <option value="" selected>Selecionar...</option>
-        <option value="">Para anterior - com redução</option>
-        <option value="">Para anterior - sem redução</option>
-        <option value="">Para lateral</option>
-        <option value="">Para medial</option>
-        <option value="">Para posterior</option>
+        <option value="Para anterior - com redução">Para anterior - com redução</option>
+        <option value="Para anterior - sem redução">Para anterior - sem redução</option>
+        <option value="Para lateral">Para lateral</option>
+        <option value="Para medial">Para medial</option>
+        <option value="Para posterior">Para posterior</option>
       </select>
     </div>
   </div>
@@ -47,10 +47,10 @@
     <div class="col-md-10">
       <select class="form-control custom-select" name="edema_atm_esq">
         <option value="" selected>Selecionar...</option>
-        <option value="">Não</option>
-        <option value="">Supradiscal</option>
-        <option value="">Infradiscal</option>
-        <option value="">Bicompartimental</option>
+        <option value="Não">Não</option>
+        <option value="Supradiscal">Supradiscal</option>
+        <option value="Infradiscal">Infradiscal</option>
+        <option value="Bicompartimental">Bicompartimental</option>
       </select>
     </div>
   </div>
@@ -59,11 +59,11 @@
     <div class="col-md-10">
       <select class="form-control custom-select" name="degeneracao_art_atm_esq">
         <option value="" selected>Selecionar...</option>
-        <option value="">Cabeça da mandíbula - aplainamento</option>
-        <option value="">Cabeça da mandíbula - osteófito</option>
-        <option value="">Cabeça da mandíbula - erosão</option>
-        <option value="">Cavidade/ eminência articular - aplainamento</option>
-        <option value="">Cavidade/ eminência articular - erosão</option>
+        <option value="Cabeça da mandíbula - aplainamento">Cabeça da mandíbula - aplainamento</option>
+        <option value="Cabeça da mandíbula - osteófito">Cabeça da mandíbula - osteófito</option>
+        <option value="Cabeça da mandíbula - erosão">Cabeça da mandíbula - erosão</option>
+        <option value="Cavidade/ eminência articular - aplainamento">Cavidade/ eminência articular - aplainamento</option>
+        <option value="Cavidade/ eminência articular - erosão">Cavidade/ eminência articular - erosão</option>
       </select>
     </div>
   </div>
@@ -72,8 +72,8 @@
     <div class="col-md-10">
       <select class="form-control custom-select" name="alteracoes_med_atm_esq">
         <option value="" selected>Selecionar...</option>
-        <option value="">Necrose avascular</option>
-        <option value="">Edema medular</option>
+        <option value="Necrose avascular">Necrose avascular</option>
+        <option value="Edema medular">Edema medular</option>
       </select>
     </div>
   </div>
@@ -87,8 +87,8 @@
     <div class="col-md-10">
       <select class="form-control custom-select" name="alteracao_forma_disco_dir">
         <option value="" selected>Selecionar...</option>
-        <option value="">Não</option>
-        <option value="">Sim</option>
+        <option value="Não">Não</option>
+        <option value="Sim">Sim</option>
       </select>
     </div>
   </div>
@@ -97,11 +97,11 @@
     <div class="col-md-10">
       <select class="form-control custom-select" name="deslocamento_disco_dir">
         <option value="" selected>Selecionar...</option>
-        <option value="">Para anterior - com redução</option>
-        <option value="">Para anterior - sem redução</option>
-        <option value="">Para lateral</option>
-        <option value="">Para medial</option>
-        <option value="">Para posterior</option>
+        <option value="Para anterior - com redução">Para anterior - com redução</option>
+        <option value="Para anterior - sem redução">Para anterior - sem redução</option>
+        <option value="Para lateral">Para lateral</option>
+        <option value="Para medial">Para medial</option>
+        <option value="Para posterior">Para posterior</option>
       </select>
     </div>
   </div>
@@ -110,10 +110,10 @@
     <div class="col-md-10">
       <select class="form-control custom-select" name="edema_atm_dir">
         <option value="" selected>Selecionar...</option>
-        <option value="">Não</option>
-        <option value="">Supradiscal</option>
-        <option value="">Infradiscal</option>
-        <option value="">Bicompartimental</option>
+        <option value="Não">Não</option>
+        <option value="Supradiscal">Supradiscal</option>
+        <option value="Infradiscal">Infradiscal</option>
+        <option value="Bicompartimental">Bicompartimental</option>
       </select>
     </div>
   </div>
@@ -122,11 +122,11 @@
     <div class="col-md-10">
       <select class="form-control custom-select" name="degeneracao_art_atm_dir">
         <option value="" selected>Selecionar...</option>
-        <option value="">Cabeça da mandíbula - aplainamento</option>
-        <option value="">Cabeça da mandíbula - osteófito</option>
-        <option value="">Cabeça da mandíbula - erosão</option>
-        <option value="">Cavidade/ eminência articular - aplainamento</option>
-        <option value="">Cavidade/ eminência articular - erosão</option>
+        <option value="Cabeça da mandíbula - aplainamento">Cabeça da mandíbula - aplainamento</option>
+        <option value="Cabeça da mandíbula - osteófito">Cabeça da mandíbula - osteófito</option>
+        <option value="Cabeça da mandíbula - erosão">Cabeça da mandíbula - erosão</option>
+        <option value="Cavidade/ eminência articular - aplainamento">Cavidade/ eminência articular - aplainamento</option>
+        <option value="Cavidade/ eminência articular - erosão">Cavidade/ eminência articular - erosão</option>
       </select>
     </div>
   </div>
@@ -135,8 +135,8 @@
     <div class="col-md-10">
       <select class="form-control custom-select" name="alteracoes_med_atm_dir">
         <option value="" selected>Selecionar...</option>
-        <option value="">Necrose avascular</option>
-        <option value="">Edema medular</option>
+        <option value="Necrose avascular">Necrose avascular</option>
+        <option value="Edema medular">Edema medular</option>
       </select>
     </div>
   </div>

@@ -176,7 +176,7 @@ include_once('style/include/head.php');
       <div class="form-group row">
         <label for="data" class="col-md-2 col-form-label">Data*</label>
         <div class="col-md-10">
-          <input class="form-control" type="date" value="" name="data" id="data" required>
+          <input class="form-control" type="date" value="<?php echo date("Y-m-d");?>" name="data" id="data" required>
         </div>
       </div>
       <div class="form-group row">
