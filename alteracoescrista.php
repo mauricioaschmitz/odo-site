@@ -4115,1019 +4115,345 @@
   </div>
 
   <div class="form-group row">
-    <a class="col-md-12 col-form-label btn btn-primary" data-toggle="collapse" href="#lesao_furcacollapse" aria-expanded="false" aria-controls="lesao_furcacollapse" style="margin-bottom: 20px;">Lesão de furca</a>
-    <div id="lesao_furcacollapse" class="collapse">
-      <div>
-        <div class="col-md-6" style="margin-top:20px;">
-          <div class="dente dente11">
-            <p class="nomedente">11</p>
-            <p class="nomedentedz">D</p>
-            <p class="nomedentemz">M</p>
-            <p class="nomedentevz">V</p>
-            <p class="nomedentepz">P</p>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca distdir">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="11_d">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca mesidir">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="11_m">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca vestsup">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="11_v">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca palat">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="11_l">
-            </div>
-          </div>
-          <div class="dente dente12">
-            <p class="nomedente">12</p>
-            <p class="nomedentedz">D</p>
-            <p class="nomedentemz">M</p>
-            <p class="nomedentevz">V</p>
-            <p class="nomedentepz">P</p>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca distdir">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="12_d">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca mesidir">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="12_m">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca vestsup">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="12_v">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca palat">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="12_l">
-            </div>
-          </div>
-          <div class="dente dente13">
-            <p class="nomedente">13</p>
-            <p class="nomedentedz">D</p>
-            <p class="nomedentemz">M</p>
-            <p class="nomedentevz">V</p>
-            <p class="nomedentepz">P</p>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca distdir">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="13_d">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca mesidir">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="13_m">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca vestsup">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="13_v">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca palat">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="13_l">
-            </div>
-          </div>
-          <div class="dente dente14">
-            <p class="nomedente">14</p>
-            <p class="nomedentedz">D</p>
-            <p class="nomedentemz">M</p>
-            <p class="nomedentevz">V</p>
-            <p class="nomedentepz">P</p>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca distdir">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="14_d">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca mesidir">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="14_m">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca vestsup">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="14_v">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca palat">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="14_l">
-            </div>
-          </div>
-          <div class="dente dente15">
-            <p class="nomedente">15</p>
-            <p class="nomedentedz">D</p>
-            <p class="nomedentemz">M</p>
-            <p class="nomedentevz">V</p>
-            <p class="nomedentepz">P</p>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca distdir">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="15_d">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca mesidir">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="15_m">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca vestsup">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="15_v">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca palat">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="15_l">
-            </div>
-          </div>
-          <div class="dente dente16">
-            <p class="nomedente">16</p>
-            <p class="nomedentedz">D</p>
-            <p class="nomedentemz">M</p>
-            <p class="nomedentevz">V</p>
-            <p class="nomedentepz">P</p>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca distdir">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="16_d">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca mesidir">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="16_m">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca vestsup">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="16_v">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca palat">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="16_l">
-            </div>
-          </div>
-          <div class="dente dente17">
-            <p class="nomedente">17</p>
-            <p class="nomedentedz">D</p>
-            <p class="nomedentemz">M</p>
-            <p class="nomedentevz">V</p>
-            <p class="nomedentepz">P</p>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca distdir">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="17_d">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca mesidir">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="17_m">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca vestsup">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="17_v">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca palat">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="17_l">
-            </div>
-          </div>
-          <div class="dente dente18">
-            <p class="nomedente">18</p>
-            <p class="nomedentedz">D</p>
-            <p class="nomedentemz">M</p>
-            <p class="nomedentevz">V</p>
-            <p class="nomedentepz">P</p>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca distdir">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="18_d">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca mesidir">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="18_m">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca vestsup">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="18_v">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca palat">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="18_p">
-            </div>
+    <a class="col-md-12 col-form-label btn btn-primary" data-toggle="collapse" href="#furcacollapse" aria-expanded="false" aria-controls="furcacollapse" style="margin-bottom: 20px;">Lesão de furca</a>
+
+    <div class="col-md-12 collapse" id="furcacollapse">
+      <div class="col-md-6" style="margin-top:20px;">
+        <div class="dente dente11">
+          <p class="nomedente">11</p>
+          <div onclick="return marcacampo(this);" class="geral lesao_furca oclusal3">
+            <input type="checkbox" name="lesao_furca[]" class="variavel" value="11">
           </div>
         </div>
-        <div class="col-md-6" style="margin-top:20px;">
-          <div class="dente dente21">
-            <p class="nomedente">21</p>
-            <p class="nomedentedz">M</p>
-            <p class="nomedentemz">D</p>
-            <p class="nomedentevz">V</p>
-            <p class="nomedentepz">P</p>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca distesq">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="21_d">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca mesiesq">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="21_m">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca vestsup">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="21_v">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca palat">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="21_p">
-            </div>
-          </div>
-          <div class="dente dente22">
-            <p class="nomedente">22</p>
-            <p class="nomedentedz">M</p>
-            <p class="nomedentemz">D</p>
-            <p class="nomedentevz">V</p>
-            <p class="nomedentepz">P</p>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca distesq">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="22_d">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca mesiesq">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="22_m">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca vestsup">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="22_v">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca palat">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="22_p">
-            </div>
-          </div>
-          <div class="dente dente23">
-            <p class="nomedente">23</p>
-            <p class="nomedentedz">M</p>
-            <p class="nomedentemz">D</p>
-            <p class="nomedentevz">V</p>
-            <p class="nomedentepz">P</p>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca distesq">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="23_d">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca mesiesq">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="23_m">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca vestsup">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="23_v">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca palat">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="23_p">
-            </div>
-          </div>
-          <div class="dente dente24">
-            <p class="nomedente">24</p>
-            <p class="nomedentedz">M</p>
-            <p class="nomedentemz">D</p>
-            <p class="nomedentevz">V</p>
-            <p class="nomedentepz">P</p>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca distesq">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="24_d">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca mesiesq">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="24_m">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca vestsup">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="24_v">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca palat">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="24_p">
-            </div>
-          </div>
-          <div class="dente dente25">
-            <p class="nomedente">25</p>
-            <p class="nomedentedz">M</p>
-            <p class="nomedentemz">D</p>
-            <p class="nomedentevz">V</p>
-            <p class="nomedentepz">P</p>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca distesq">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="25_d">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca mesiesq">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="25_m">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca vestsup">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="25_v">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca palat">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="25_p">
-            </div>
-          </div>
-          <div class="dente dente26">
-            <p class="nomedente">26</p>
-            <p class="nomedentedz">M</p>
-            <p class="nomedentemz">D</p>
-            <p class="nomedentevz">V</p>
-            <p class="nomedentepz">P</p>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca distesq">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="26_d">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca mesiesq">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="26_m">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca vestsup">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="26_v">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca palat">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="26_p">
-            </div>
-          </div>
-          <div class="dente dente27">
-            <p class="nomedente">27</p>
-            <p class="nomedentedz">M</p>
-            <p class="nomedentemz">D</p>
-            <p class="nomedentevz">V</p>
-            <p class="nomedentepz">P</p>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca distesq">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="27_d">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca mesiesq">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="27_m">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca vestsup">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="27_v">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca palat">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="27_p">
-            </div>
-          </div>
-          <div class="dente dente28">
-            <p class="nomedente">28</p>
-            <p class="nomedentedz">M</p>
-            <p class="nomedentemz">D</p>
-            <p class="nomedentevz">V</p>
-            <p class="nomedentepz">P</p>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca distesq">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="28_d">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca mesiesq">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="28_m">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca vestsup">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="28_v">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca palat">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="28_p">
-            </div>
+        <div class="dente dente12">
+          <p class="nomedente">12</p>
+          <div onclick="return marcacampo(this);" class="geral lesao_furca oclusal3">
+            <input type="checkbox" name="lesao_furca[]" class="variavel" value="12">
           </div>
         </div>
-        <div class="col-md-6 deciduo" style="margin-top:20px;">
-          <div class="dente dente51">
-            <p class="nomedente">51</p>
-            <p class="nomedentedz">D</p>
-            <p class="nomedentemz">M</p>
-            <p class="nomedentevz">V</p>
-            <p class="nomedentepz">P</p>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca distdir">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="51_d">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca mesidir">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="51_m">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca vestsup">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="51_v">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca palat">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="51_p">
-            </div>
-          </div>
-          <div class="dente dente52">
-            <p class="nomedente">52</p>
-            <p class="nomedentedz">D</p>
-            <p class="nomedentemz">M</p>
-            <p class="nomedentevz">V</p>
-            <p class="nomedentepz">P</p>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca distdir">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="52_d">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca mesidir">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="52_m">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca vestsup">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="52_v">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca palat">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="52_p">
-            </div>
-          </div>
-          <div class="dente dente53">
-            <p class="nomedente">53</p>
-            <p class="nomedentedz">D</p>
-            <p class="nomedentemz">M</p>
-            <p class="nomedentevz">V</p>
-            <p class="nomedentepz">P</p>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca distdir">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="53_d">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca mesidir">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="53_m">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca vestsup">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="53_v">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca palat">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="53_p">
-            </div>
-          </div>
-          <div class="dente dente54">
-            <p class="nomedente">54</p>
-            <p class="nomedentedz">D</p>
-            <p class="nomedentemz">M</p>
-            <p class="nomedentevz">V</p>
-            <p class="nomedentepz">P</p>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca distdir">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="54_d">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca mesidir">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="54_m">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca vestsup">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="54_v">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca palat">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="54_p">
-            </div>
-          </div>
-          <div class="dente dente55">
-            <p class="nomedente">55</p>
-            <p class="nomedentedz">D</p>
-            <p class="nomedentemz">M</p>
-            <p class="nomedentevz">V</p>
-            <p class="nomedentepz">P</p>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca distdir">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="55_d">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca mesidir">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="55_m">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca vestsup">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="55_v">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca palat">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="55_p">
-            </div>
+        <div class="dente dente13">
+          <p class="nomedente">13</p>
+          <div onclick="return marcacampo(this);" class="geral lesao_furca oclusal3">
+            <input type="checkbox" name="lesao_furca[]" class="variavel" value="13">
           </div>
         </div>
-        <div class="col-md-6 deciduo" style="margin-top:20px;">
-          <div class="dente dente61">
-            <p class="nomedente">61</p>
-            <p class="nomedentedz">M</p>
-            <p class="nomedentemz">D</p>
-            <p class="nomedentevz">V</p>
-            <p class="nomedentepz">P</p>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca distesq">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="61_d">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca mesiesq">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="61_m">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca vestsup">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="61_v">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca palat">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="61_p">
-            </div>
-          </div>
-          <div class="dente dente62">
-            <p class="nomedente">62</p>
-            <p class="nomedentedz">M</p>
-            <p class="nomedentemz">D</p>
-            <p class="nomedentevz">V</p>
-            <p class="nomedentepz">P</p>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca distesq">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="62_d">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca mesiesq">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="62_m">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca vestsup">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="62_v">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca palat">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="62_p">
-            </div>
-          </div>
-          <div class="dente dente63">
-            <p class="nomedente">63</p>
-            <p class="nomedentedz">M</p>
-            <p class="nomedentemz">D</p>
-            <p class="nomedentevz">V</p>
-            <p class="nomedentepz">P</p>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca distesq">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="63_d">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca mesiesq">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="63_m">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca vestsup">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="63_v">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca palat">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="63_p">
-            </div>
-          </div>
-          <div class="dente dente64">
-            <p class="nomedente">64</p>
-            <p class="nomedentedz">M</p>
-            <p class="nomedentemz">D</p>
-            <p class="nomedentevz">V</p>
-            <p class="nomedentepz">P</p>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca distesq">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="64_d">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca mesiesq">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="64_m">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca vestsup">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="64_v">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca palat">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="64_p">
-            </div>
-          </div>
-          <div class="dente dente65">
-            <p class="nomedente">65</p>
-            <p class="nomedentedz">M</p>
-            <p class="nomedentemz">D</p>
-            <p class="nomedentevz">V</p>
-            <p class="nomedentepz">P</p>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca distesq">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="65_d">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca mesiesq">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="65_m">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca vestsup">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="65_v">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca palat">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="65_p">
-            </div>
+        <div class="dente dente14">
+          <p class="nomedente">14</p>
+          <div onclick="return marcacampo(this);" class="geral lesao_furca oclusal3">
+            <input type="checkbox" name="lesao_furca[]" class="variavel" value="14">
           </div>
         </div>
-        <div class="col-md-6 deciduo" style="margin-top:20px;">
-          <div class="dente dente81">
-            <p class="nomedente">81</p>
-            <p class="nomedentedz">D</p>
-            <p class="nomedentemz">M</p>
-            <p class="nomedentevz">L</p>
-            <p class="nomedentepz">V</p>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca distdir">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="81_d">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca mesidir">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="81_m">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca ling">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="81_l">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca vestinf">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="81_v">
-            </div>
-          </div>
-          <div class="dente dente82">
-            <p class="nomedente">82</p>
-            <p class="nomedentedz">D</p>
-            <p class="nomedentemz">M</p>
-            <p class="nomedentevz">L</p>
-            <p class="nomedentepz">V</p>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca distdir">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="82_d">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca mesidir">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="82_m">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca ling">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="82_l">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca vestinf">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="82_v">
-            </div>
-          </div>
-          <div class="dente dente83">
-            <p class="nomedente">83</p>
-            <p class="nomedentedz">D</p>
-            <p class="nomedentemz">M</p>
-            <p class="nomedentevz">L</p>
-            <p class="nomedentepz">V</p>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca distdir">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="83_d">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca mesidir">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="83_m">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca ling">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="83_l">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca vestinf">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="83_v">
-            </div>
-          </div>
-          <div class="dente dente84">
-            <p class="nomedente">84</p>
-            <p class="nomedentedz">D</p>
-            <p class="nomedentemz">M</p>
-            <p class="nomedentevz">L</p>
-            <p class="nomedentepz">V</p>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca distdir">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="84_d">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca mesidir">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="84_m">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca ling">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="84_l">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca vestinf">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="84_v">
-            </div>
-          </div>
-          <div class="dente dente85">
-            <p class="nomedente">85</p>
-            <p class="nomedentedz">D</p>
-            <p class="nomedentemz">M</p>
-            <p class="nomedentevz">L</p>
-            <p class="nomedentepz">V</p>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca distdir">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="85_d">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca mesidir">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="85_m">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca ling">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="85_l">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca vestinf">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="85_v">
-            </div>
+        <div class="dente dente15">
+          <p class="nomedente">15</p>
+          <div onclick="return marcacampo(this);" class="geral lesao_furca oclusal3">
+            <input type="checkbox" name="lesao_furca[]" class="variavel" value="15">
           </div>
         </div>
-        <div class="col-md-6 deciduo" style="margin-top:20px;">
-          <div class="dente dente71">
-            <p class="nomedente">71</p>
-            <p class="nomedentedz">M</p>
-            <p class="nomedentemz">D</p>
-            <p class="nomedentevz">L</p>
-            <p class="nomedentepz">V</p>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca distesq">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="71_d">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca mesiesq">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="71_m">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca ling">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="71_l">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca vestinf">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="71_v">
-            </div>
-          </div>
-          <div class="dente dente72">
-            <p class="nomedente">72</p>
-            <p class="nomedentedz">M</p>
-            <p class="nomedentemz">D</p>
-            <p class="nomedentevz">L</p>
-            <p class="nomedentepz">V</p>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca distesq">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="72_d">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca mesiesq">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="72_m">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca ling">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="72_l">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca vestinf">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="72_v">
-            </div>
-          </div>
-          <div class="dente dente73">
-            <p class="nomedente">73</p>
-            <p class="nomedentedz">M</p>
-            <p class="nomedentemz">D</p>
-            <p class="nomedentevz">L</p>
-            <p class="nomedentepz">V</p>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca distesq">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="73_d">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca mesiesq">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="73_m">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca ling">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="73_l">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca vestinf">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="73_v">
-            </div>
-          </div>
-          <div class="dente dente74">
-            <p class="nomedente">74</p>
-            <p class="nomedentedz">M</p>
-            <p class="nomedentemz">D</p>
-            <p class="nomedentevz">L</p>
-            <p class="nomedentepz">V</p>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca distesq">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="74_d">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca mesiesq">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="74_m">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca ling">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="74_l">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca vestinf">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="74_v">
-            </div>
-          </div>
-          <div class="dente dente75">
-            <p class="nomedente">75</p>
-            <p class="nomedentedz">M</p>
-            <p class="nomedentemz">D</p>
-            <p class="nomedentevz">L</p>
-            <p class="nomedentepz">V</p>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca distesq">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="75_d">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca mesiesq">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="75_m">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca ling">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="75_l">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca vestinf">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="75_v">
-            </div>
+        <div class="dente dente16">
+          <p class="nomedente">16</p>
+          <div onclick="return marcacampo(this);" class="geral lesao_furca oclusal3">
+            <input type="checkbox" name="lesao_furca[]" class="variavel" value="16">
           </div>
         </div>
-        <div class="col-md-6" style="margin-top:20px;">
-          <div class="dente dente41">
-            <p class="nomedente">41</p>
-            <p class="nomedentedz">D</p>
-            <p class="nomedentemz">M</p>
-            <p class="nomedentevz">L</p>
-            <p class="nomedentepz">V</p>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca distdir">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="41_d">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca mesidir">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="41_m">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca ling">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="41_l">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca vestinf">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="41_v">
-            </div>
-          </div>
-          <div class="dente dente42">
-            <p class="nomedente">42</p>
-            <p class="nomedentedz">D</p>
-            <p class="nomedentemz">M</p>
-            <p class="nomedentevz">L</p>
-            <p class="nomedentepz">V</p>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca distdir">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="42_d">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca mesidir">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="42_m">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca ling">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="42_l">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca vestinf">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="42_v">
-            </div>
-          </div>
-          <div class="dente dente43">
-            <p class="nomedente">43</p>
-            <p class="nomedentedz">D</p>
-            <p class="nomedentemz">M</p>
-            <p class="nomedentevz">L</p>
-            <p class="nomedentepz">V</p>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca distdir">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="43_d">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca mesidir">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="43_m">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca ling">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="43_l">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca vestinf">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="43_v">
-            </div>
-          </div>
-          <div class="dente dente44">
-            <p class="nomedente">44</p>
-            <p class="nomedentedz">D</p>
-            <p class="nomedentemz">M</p>
-            <p class="nomedentevz">L</p>
-            <p class="nomedentepz">V</p>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca distdir">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="44_d">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca mesidir">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="44_m">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca ling">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="44_l">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca vestinf">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="44_v">
-            </div>
-          </div>
-          <div class="dente dente45">
-            <p class="nomedente">45</p>
-            <p class="nomedentedz">D</p>
-            <p class="nomedentemz">M</p>
-            <p class="nomedentevz">L</p>
-            <p class="nomedentepz">V</p>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca distdir">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="45_d">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca mesidir">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="45_m">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca ling">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="45_l">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca vestinf">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="45_v">
-            </div>
-          </div>
-          <div class="dente dente46">
-            <p class="nomedente">46</p>
-            <p class="nomedentedz">D</p>
-            <p class="nomedentemz">M</p>
-            <p class="nomedentevz">L</p>
-            <p class="nomedentepz">V</p>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca distdir">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="46_d">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca mesidir">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="46_m">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca ling">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="46_l">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca vestinf">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="46_v">
-            </div>
-          </div>
-          <div class="dente dente47">
-            <p class="nomedente">47</p>
-            <p class="nomedentedz">D</p>
-            <p class="nomedentemz">M</p>
-            <p class="nomedentevz">L</p>
-            <p class="nomedentepz">V</p>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca distdir">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="47_d">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca mesidir">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="47_m">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca ling">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="47_l">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca vestinf">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="47_v">
-            </div>
-          </div>
-          <div class="dente dente48">
-            <p class="nomedente">48</p>
-            <p class="nomedentedz">D</p>
-            <p class="nomedentemz">M</p>
-            <p class="nomedentevz">L</p>
-            <p class="nomedentepz">V</p>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca distdir">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="48_d">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca mesidir">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="48_m">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca ling">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="48_l">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca vestinf">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="48_v">
-            </div>
+        <div class="dente dente17">
+          <p class="nomedente">17</p>
+          <div onclick="return marcacampo(this);" class="geral lesao_furca oclusal3">
+            <input type="checkbox" name="lesao_furca[]" class="variavel" value="17">
           </div>
         </div>
-        <div class="col-md-6" style="margin-top:20px;">
-          <div class="dente dente31">
-            <p class="nomedente">31</p>
-            <p class="nomedentedz">M</p>
-            <p class="nomedentemz">D</p>
-            <p class="nomedentevz">L</p>
-            <p class="nomedentepz">V</p>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca distesq">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="31_d">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca mesiesq">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="31_m">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca ling">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="31_l">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca vestinf">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="31_v">
-            </div>
-          </div>
-          <div class="dente dente32">
-            <p class="nomedente">32</p>
-            <p class="nomedentedz">M</p>
-            <p class="nomedentemz">D</p>
-            <p class="nomedentevz">L</p>
-            <p class="nomedentepz">V</p>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca distesq">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="32_d">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca mesiesq">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="32_m">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca ling">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="32_l">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca vestinf">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="32_v">
-            </div>
-          </div>
-          <div class="dente dente33">
-            <p class="nomedente">33</p>
-            <p class="nomedentedz">M</p>
-            <p class="nomedentemz">D</p>
-            <p class="nomedentevz">L</p>
-            <p class="nomedentepz">V</p>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca distesq">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="33_d">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca mesiesq">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="33_m">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca ling">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="33_l">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca vestinf">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="33_v">
-            </div>
-          </div>
-          <div class="dente dente34">
-            <p class="nomedente">34</p>
-            <p class="nomedentedz">M</p>
-            <p class="nomedentemz">D</p>
-            <p class="nomedentevz">L</p>
-            <p class="nomedentepz">V</p>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca distesq">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="34_d">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca mesiesq">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="34_m">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca ling">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="34_l">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca vestinf">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="34_v">
-            </div>
-          </div>
-          <div class="dente dente35">
-            <p class="nomedente">35</p>
-            <p class="nomedentedz">M</p>
-            <p class="nomedentemz">D</p>
-            <p class="nomedentevz">L</p>
-            <p class="nomedentepz">V</p>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca distesq">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="35_d">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca mesiesq">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="35_m">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca ling">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="35_l">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca vestinf">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="35_v">
-            </div>
-          </div>
-          <div class="dente dente36">
-            <p class="nomedente">36</p>
-            <p class="nomedentedz">M</p>
-            <p class="nomedentemz">D</p>
-            <p class="nomedentevz">L</p>
-            <p class="nomedentepz">V</p>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca distesq">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="36_d">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca mesiesq">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="36_m">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca ling">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="36_l">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca vestinf">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="36_v">
-            </div>
-          </div>
-          <div class="dente dente37">
-            <p class="nomedente">37</p>
-            <p class="nomedentedz">M</p>
-            <p class="nomedentemz">D</p>
-            <p class="nomedentevz">L</p>
-            <p class="nomedentepz">V</p>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca distesq">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="37_d">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca mesiesq">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="37_m">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca ling">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="37_l">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca vestinf">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="37_v">
-            </div>
-          </div>
-          <div class="dente dente38">
-            <p class="nomedente">38</p>
-            <p class="nomedentedz">M</p>
-            <p class="nomedentemz">D</p>
-            <p class="nomedentevz">L</p>
-            <p class="nomedentepz">V</p>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca distesq">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="38_d">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca mesiesq">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="38_m">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca ling">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="38_l">
-            </div>
-            <div onclick="return marcacampo(this);" class="geral lesao_furca vestinf">
-              <input type="checkbox" name="lesao_furca[]" class="variavel" value="38_v">
-            </div>
+        <div class="dente dente18">
+          <p class="nomedente">18</p>
+          <div onclick="return marcacampo(this);" class="geral lesao_furca oclusal3">
+            <input type="checkbox" name="lesao_furca[]" class="variavel" value="18">
           </div>
         </div>
-        <label class="custom-control custom-checkbox">
-          <input type="checkbox" class="custom-control-input regaval" name="marcar_lesao_furca" onclick="marcar('lesao_furca');" id="marcar_lesao_furca">
-          <span class="custom-control-indicator"></span>
-          <span class="custom-control-description">Marcar/desmarcar todos</span>
-        </label>
       </div>
+      <div class="col-md-6" style="margin-top:20px;">
+        <div class="dente dente21">
+          <p class="nomedente">21</p>
+          <div onclick="return marcacampo(this);" class="geral lesao_furca oclusal3">
+            <input type="checkbox" name="lesao_furca[]" class="variavel" value="21">
+          </div>
+        </div>
+        <div class="dente dente22">
+          <p class="nomedente">22</p>
+          <div onclick="return marcacampo(this);" class="geral lesao_furca oclusal3">
+            <input type="checkbox" name="lesao_furca[]" class="variavel" value="22">
+          </div>
+        </div>
+        <div class="dente dente23">
+          <p class="nomedente">23</p>
+          <div onclick="return marcacampo(this);" class="geral lesao_furca oclusal3">
+            <input type="checkbox" name="lesao_furca[]" class="variavel" value="23">
+          </div>
+        </div>
+        <div class="dente dente24">
+          <p class="nomedente">24</p>
+          <div onclick="return marcacampo(this);" class="geral lesao_furca oclusal3">
+            <input type="checkbox" name="lesao_furca[]" class="variavel" value="24">
+          </div>
+        </div>
+        <div class="dente dente25">
+          <p class="nomedente">25</p>
+          <div onclick="return marcacampo(this);" class="geral lesao_furca oclusal3">
+            <input type="checkbox" name="lesao_furca[]" class="variavel" value="25">
+          </div>
+        </div>
+        <div class="dente dente26">
+          <p class="nomedente">26</p>
+          <div onclick="return marcacampo(this);" class="geral lesao_furca oclusal3">
+            <input type="checkbox" name="lesao_furca[]" class="variavel" value="26">
+          </div>
+        </div>
+        <div class="dente dente27">
+          <p class="nomedente">27</p>
+          <div onclick="return marcacampo(this);" class="geral lesao_furca oclusal3">
+            <input type="checkbox" name="lesao_furca[]" class="variavel" value="27">
+          </div>
+        </div>
+        <div class="dente dente28">
+          <p class="nomedente">28</p>
+          <div onclick="return marcacampo(this);" class="geral lesao_furca oclusal3">
+            <input type="checkbox" name="lesao_furca[]" class="variavel" value="28">
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 deciduo">
+        <div class="dente dente51">
+          <p class="nomedente">51</p>
+          <div onclick="return marcacampo(this);" class="geral lesao_furca oclusal3">
+            <input type="checkbox" name="lesao_furca[]" class="variavel" value="51">
+          </div>
+        </div>
+        <div class="dente dente52">
+          <p class="nomedente">52</p>
+          <div onclick="return marcacampo(this);" class="geral lesao_furca oclusal3">
+            <input type="checkbox" name="lesao_furca[]" class="variavel" value="52">
+          </div>
+        </div>
+        <div class="dente dente53">
+          <p class="nomedente">53</p>
+          <div onclick="return marcacampo(this);" class="geral lesao_furca oclusal3">
+            <input type="checkbox" name="lesao_furca[]" class="variavel" value="53">
+          </div>
+        </div>
+        <div class="dente dente54">
+          <p class="nomedente">54</p>
+          <div onclick="return marcacampo(this);" class="geral lesao_furca oclusal3">
+            <input type="checkbox" name="lesao_furca[]" class="variavel" value="54">
+          </div>
+        </div>
+        <div class="dente dente55">
+          <p class="nomedente">55</p>
+          <div onclick="return marcacampo(this);" class="geral lesao_furca oclusal3">
+            <input type="checkbox" name="lesao_furca[]" class="variavel" value="55">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 deciduo">
+        <div class="dente dente61">
+          <p class="nomedente">61</p>
+          <div onclick="return marcacampo(this);" class="geral lesao_furca oclusal3">
+            <input type="checkbox" name="lesao_furca[]" class="variavel" value="61">
+          </div>
+        </div>
+        <div class="dente dente62">
+          <p class="nomedente">62</p>
+          <div onclick="return marcacampo(this);" class="geral lesao_furca oclusal3">
+            <input type="checkbox" name="lesao_furca[]" class="variavel" value="62">
+          </div>
+        </div>
+        <div class="dente dente63">
+          <p class="nomedente">63</p>
+          <div onclick="return marcacampo(this);" class="geral lesao_furca oclusal3">
+            <input type="checkbox" name="lesao_furca[]" class="variavel" value="63">
+          </div>
+        </div>
+        <div class="dente dente64">
+          <p class="nomedente">64</p>
+          <div onclick="return marcacampo(this);" class="geral lesao_furca oclusal3">
+            <input type="checkbox" name="lesao_furca[]" class="variavel" value="64">
+          </div>
+        </div>
+        <div class="dente dente65">
+          <p class="nomedente">65</p>
+          <div onclick="return marcacampo(this);" class="geral lesao_furca oclusal3">
+            <input type="checkbox" name="lesao_furca[]" class="variavel" value="65">
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 deciduo">
+        <div class="dente dente81">
+          <p class="nomedente">81</p>
+          <div onclick="return marcacampo(this);" class="geral lesao_furca oclusal3">
+            <input type="checkbox" name="lesao_furca[]" class="variavel" value="81">
+          </div>
+        </div>
+        <div class="dente dente82">
+          <p class="nomedente">82</p>
+          <div onclick="return marcacampo(this);" class="geral lesao_furca oclusal3">
+            <input type="checkbox" name="lesao_furca[]" class="variavel" value="82">
+          </div>
+        </div>
+        <div class="dente dente83">
+          <p class="nomedente">83</p>
+          <div onclick="return marcacampo(this);" class="geral lesao_furca oclusal3">
+            <input type="checkbox" name="lesao_furca[]" class="variavel" value="83">
+          </div>
+        </div>
+        <div class="dente dente84">
+          <p class="nomedente">84</p>
+          <div onclick="return marcacampo(this);" class="geral lesao_furca oclusal3">
+            <input type="checkbox" name="lesao_furca[]" class="variavel" value="84">
+          </div>
+        </div>
+        <div class="dente dente85">
+          <p class="nomedente">85</p>
+          <div onclick="return marcacampo(this);" class="geral lesao_furca oclusal3">
+            <input type="checkbox" name="lesao_furca[]" class="variavel" value="85">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 deciduo">
+        <div class="dente dente71">
+          <p class="nomedente">71</p>
+          <div onclick="return marcacampo(this);" class="geral lesao_furca oclusal3">
+            <input type="checkbox" name="lesao_furca[]" class="variavel" value="71">
+          </div>
+        </div>
+        <div class="dente dente72">
+          <p class="nomedente">72</p>
+          <div onclick="return marcacampo(this);" class="geral lesao_furca oclusal3">
+            <input type="checkbox" name="lesao_furca[]" class="variavel" value="72">
+          </div>
+        </div>
+        <div class="dente dente73">
+          <p class="nomedente">73</p>
+          <div onclick="return marcacampo(this);" class="geral lesao_furca oclusal3">
+            <input type="checkbox" name="lesao_furca[]" class="variavel" value="73">
+          </div>
+        </div>
+        <div class="dente dente74">
+          <p class="nomedente">74</p>
+          <div onclick="return marcacampo(this);" class="geral lesao_furca oclusal3">
+            <input type="checkbox" name="lesao_furca[]" class="variavel" value="74">
+          </div>
+        </div>
+        <div class="dente dente75">
+          <p class="nomedente">75</p>
+          <div onclick="return marcacampo(this);" class="geral lesao_furca oclusal3">
+            <input type="checkbox" name="lesao_furca[]" class="variavel" value="75">
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="dente dente41">
+          <p class="nomedente">41</p>
+          <div onclick="return marcacampo(this);" class="geral lesao_furca oclusal3">
+            <input type="checkbox" name="lesao_furca[]" class="variavel" value="41">
+          </div>
+        </div>
+        <div class="dente dente42">
+          <p class="nomedente">42</p>
+          <div onclick="return marcacampo(this);" class="geral lesao_furca oclusal3">
+            <input type="checkbox" name="lesao_furca[]" class="variavel" value="42">
+          </div>
+        </div>
+        <div class="dente dente43">
+          <p class="nomedente">43</p>
+          <div onclick="return marcacampo(this);" class="geral lesao_furca oclusal3">
+            <input type="checkbox" name="lesao_furca[]" class="variavel" value="43">
+          </div>
+        </div>
+        <div class="dente dente44">
+          <p class="nomedente">44</p>
+          <div onclick="return marcacampo(this);" class="geral lesao_furca oclusal3">
+            <input type="checkbox" name="lesao_furca[]" class="variavel" value="44">
+          </div>
+        </div>
+        <div class="dente dente45">
+          <p class="nomedente">45</p>
+          <div onclick="return marcacampo(this);" class="geral lesao_furca oclusal3">
+            <input type="checkbox" name="lesao_furca[]" class="variavel" value="45">
+          </div>
+        </div>
+        <div class="dente dente46">
+          <p class="nomedente">46</p>
+          <div onclick="return marcacampo(this);" class="geral lesao_furca oclusal3">
+            <input type="checkbox" name="lesao_furca[]" class="variavel" value="46">
+          </div>
+        </div>
+        <div class="dente dente47">
+          <p class="nomedente">47</p>
+          <div onclick="return marcacampo(this);" class="geral lesao_furca oclusal3">
+            <input type="checkbox" name="lesao_furca[]" class="variavel" value="47">
+          </div>
+        </div>
+        <div class="dente dente48">
+          <p class="nomedente">48</p>
+          <div onclick="return marcacampo(this);" class="geral lesao_furca oclusal3">
+            <input type="checkbox" name="lesao_furca[]" class="variavel" value="48">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="dente dente31">
+          <p class="nomedente">31</p>
+          <div onclick="return marcacampo(this);" class="geral lesao_furca oclusal3">
+            <input type="checkbox" name="lesao_furca[]" class="variavel" value="31">
+          </div>
+        </div>
+        <div class="dente dente32">
+          <p class="nomedente">32</p>
+          <div onclick="return marcacampo(this);" class="geral lesao_furca oclusal3">
+            <input type="checkbox" name="lesao_furca[]" class="variavel" value="32">
+          </div>
+        </div>
+        <div class="dente dente33">
+          <p class="nomedente">33</p>
+          <div onclick="return marcacampo(this);" class="geral lesao_furca oclusal3">
+            <input type="checkbox" name="lesao_furca[]" class="variavel" value="33">
+          </div>
+        </div>
+        <div class="dente dente34">
+          <p class="nomedente">34</p>
+          <div onclick="return marcacampo(this);" class="geral lesao_furca oclusal3">
+            <input type="checkbox" name="lesao_furca[]" class="variavel" value="34">
+          </div>
+        </div>
+        <div class="dente dente35">
+          <p class="nomedente">35</p>
+          <div onclick="return marcacampo(this);" class="geral lesao_furca oclusal3">
+            <input type="checkbox" name="lesao_furca[]" class="variavel" value="35">
+          </div>
+        </div>
+        <div class="dente dente36">
+          <p class="nomedente">36</p>
+          <div onclick="return marcacampo(this);" class="geral lesao_furca oclusal3">
+            <input type="checkbox" name="lesao_furca[]" class="variavel" value="36">
+          </div>
+        </div>
+        <div class="dente dente37">
+          <p class="nomedente">37</p>
+          <div onclick="return marcacampo(this);" class="geral lesao_furca oclusal3">
+            <input type="checkbox" name="lesao_furca[]" class="variavel" value="37">
+          </div>
+        </div>
+        <div class="dente dente38">
+          <p class="nomedente">38</p>
+          <div onclick="return marcacampo(this);" class="geral lesao_furca oclusal3">
+            <input type="checkbox" name="lesao_furca[]" class="variavel" value="38">
+          </div>
+        </div>
+      </div>
+      <label class="custom-control custom-checkbox">
+        <input type="checkbox" class="custom-control-input regaval" name="marcar_lesao_furca" id="marcar_lesao_furca" onclick="marcar('lesao_furca');">
+        <span class="custom-control-indicator"></span>
+        <span class="custom-control-description">Marcar/desmarcar todos</span>
+      </label>
     </div>
   </div>
 

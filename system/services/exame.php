@@ -133,10 +133,10 @@ if (isset($_POST["enviar"])) {
                 if($_POST['alteracoes-crista'] == "Com alterações"){
                     $acoa = new AlteracoesCoa();
                     $acoa->setId_exame($id_exame[0]['id']);
-                    @$acoa->setPerda_ossea_generalizada($_POST['perda_ossea_generalizada']);
-                    @$acoa->setPerda_ossea_generalizada2($_POST['perda_ossea_generalizada2']);
-                    @$acoa->setPerda_ossea_localizadav(implode(",",$_POST['perda_ossea_localizadav']));
-                    @$acoa->setPerda_ossea_localizadah(implode(",",$_POST['perda_ossea_localizadah']));
+                    @$acoa->setPerda_ossea_generalizada($_POST['perdaosseageneralizada']);
+                    @$acoa->setPerda_ossea_generalizada2($_POST['perdaosseageneralizada2']);
+                    @$acoa->setPerda_ossea_localizadav(implode(",",$_POST['perdaossealocalizadav']));
+                    @$acoa->setPerda_ossea_localizadah(implode(",",$_POST['perdaossealocalizadah']));
                     @$acoa->setEsfumacamento(implode(",",$_POST['esfumacamento']));
                     @$acoa->setEndoperio(implode(",",$_POST['endoperio']));
                     @$acoa->setLesao_furca(implode(",",$_POST['lesao_furca']));
@@ -269,7 +269,7 @@ if (isset($_POST["enviar"])) {
                 }
             } 
         }
-        //header("location:../../detalhesexame.php?id_exame=".$id_exame[0]['id']);
+        header("location:../../detalhesexame.php?id_exame=".$id_exame[0]['id']);
     }
     else if ($_POST['acao'] == "login") {
         $e->setEmail($_POST['email']);

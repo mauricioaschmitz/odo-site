@@ -323,6 +323,26 @@
       }
       n++;
     });
+    var dent = $("#denticao").val();
+    setTimeout(function (){
+      if(dent == "permanente"){
+        $(".denticao").css("display","block");
+        $(".permanente").css("display","block");
+        $(".decidua").css("display", "none");
+        $(".deciduo").css("display", "none");
+      } else if(dent == "decidua"){
+        $(".denticao").css("display","block");
+        $(".decidua").css("display","block");
+        $(".deciduo").css("display", "block");
+        $(".permanente").css("display","block");
+      } else if(dent == "mista"){
+        $(".denticao").css("display","block");
+        $(".permanente").css("display","block");
+        $(".decidua").css("display","block");
+        $(".deciduo").css("display", "block");
+      }
+    }, 1000);
+    
   });
 
 
