@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,8 +18,8 @@
   <!-- Custom styles for this template -->
   <link href="style/css/inserir.css" rel="stylesheet">
 
-  <style>
-  <style>
+  <style type="text/css">
+
   /* The Modal (background) */
   .modalzito {
     display: none; /* Hidden by default */
@@ -84,6 +85,57 @@
       width: 100%;
     }
   }
+
+
+  #response{
+    width: 100%;
+    position:absolute;
+    z-index:99;
+    background-color: white;
+  }
+
+  #response > ul {
+    width:100%;
+    float: left;
+    list-style: none;
+    padding: 0px;
+    border: 1px solid black;
+  }
+
+  #response > ul > li {
+    padding:3px;
+  }
+
+  #response > ul > li:hover {
+    color: silver;
+    background: #0088cc;
+    cursor: pointer;
+  }
+
+  #response2{
+    width: 100%;
+    position:absolute;
+    z-index:99;
+    background-color: white;
+  }
+
+  #response2 > ul {
+    width:100%;
+    float: left;
+    list-style: none;
+    padding: 0px;
+    border: 1px solid black;
+  }
+
+  #response2 > ul > li {
+    padding:3px;
+  }
+
+  #response2 > ul > li:hover {
+    color: silver;
+    background: #0088cc;
+    cursor: pointer;
+  }
 </style>
 </style>
 </head>
@@ -105,14 +157,22 @@ include_once('style/include/head.php');
       <div class="form-group row">
         <label for="prontuario" class="col-md-2 col-form-label">Prontuário Nº</label>
         <div class="col-md-10">
-          <input class="form-control" type="number" value="" name="num_prontuario" id="prontuario" required>
+          <input class="form-control target2" type="number" value="" name="num_prontuario" id="prontuario" required>
+          <div id="response2">
+
+          </div>
+          <input type="hidden" value="" name="id_paciente" id="id_paciente" required>
         </div>
       </div>
       <div class="form-group row">
         <label for="prontuario" class="col-md-2 col-form-label">Nome</label>
         <div class="col-md-10">
-          <input class="form-control" type="text" value="" name="nome" id="nome" required>
+          <input class="form-control target1" type="text" value="" name="nome" id="searchBox1"  required>
+          <div id="response">
+
+          </div>
         </div>
+        
       </div>
       <div class="form-group row">
         <label for="prontuario" class="col-md-2 col-form-label">Nascimento</label>
@@ -829,6 +889,79 @@ include_once('style/include/head.php');
 
       <script src="style/js/src/inserir.js"></script>
 
+      <script>
+        $(document).ready(function(){
+          $("#searchBox1").keyup(function(){
+            var query = $("#searchBox1").val();
+            
+            if(query.length > 0){
+              $.ajax(
+              {
+                url: 'system/include/buscapacientes.php',
+                method:'POST',
+                data: {
+                  search: 1,
+                  q: query
+                },
+                success: function (data){
+                  $("#response").html(data);
+                },
+                dataType: 'text'
+              }
+              );
+            }
+          });
+        });
+
+        $(document).on('click', 'li', function () {
+          var country = $(this).text();
+          $("#response").html("");
+          $("#response2").html("");
+          $.ajax(
+          {
+            url: 'system/include/buscapacientes2.php',
+            method:'POST',
+            data: {
+              search: 1,
+              q: country
+            },
+            success: function (data){
+              var res = data.split("--");
+              $("#id_paciente").val(res[0]);
+              $("#searchBox1").val(res[1]);
+              $("#prontuario").val(res[3]);
+              $("#nascimento").val(res[2]);
+            },
+            dataType: 'text'
+          }
+          );
+        });
+
+
+        $(document).ready(function(){
+          $("#prontuario").keyup(function(){
+            var query = $("#prontuario").val();
+            
+            if(query.length > 0){
+              $.ajax(
+              {
+                url: 'system/include/buscapacientes3.php',
+                method:'POST',
+                data: {
+                  search: 1,
+                  q: query
+                },
+                success: function (data){
+                  $("#response2").html(data);
+                },
+                dataType: 'text'
+              }
+              );
+            }
+          });
+        });
+      </script>
+
       
-  </body>
-  </html>
+    </body>
+    </html>

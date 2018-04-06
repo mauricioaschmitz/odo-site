@@ -477,3 +477,9 @@
       $(".contemdentesto-invisible").css("display","none");
     }
   });
+
+  $( ".target1" ).keypress(function( event ) {   
+    if ( event.which == 13 ) {
+      alert('enter pressionado');
+    }
+  });

@@ -25,19 +25,28 @@ include_once(ROOT . "controller/ControllerAlteracoesCoroa.control.php");
 include_once(ROOT . "controller/ControllerAlteracoesRaiz.control.php");
 include_once(ROOT . "controller/ControllerAlteracoesCoa.control.php");
 include_once(ROOT . "controller/ControllerAlteracoesPeriapice.control.php");
+include_once(ROOT . "controller/ControllerAlteracoesTecidoOsseo.control.php");
+include_once(ROOT . "controller/ControllerAlteracoesTecidoMole.control.php");
+include_once(ROOT . "controller/ControllerAlteracoesAtm.control.php");
 $ce = new ControllerExame();
 $cea = new ControllerExameAnterior();
 $cac = new ControllerAlteracoesCoroa();
 $car = new ControllerAlteracoesRaiz();
 $cacoa = new ControllerAlteracoesCoa();
 $cap = new ControllerAlteracoesPeriapice();
+$catm = new ControllerAlteracoesTecidoMole();
+$cato = new ControllerAlteracoesTecidoOsseo();
+$caatm = new ControllerAlteracoesAtm();
 $exame = $ce->actionControl("selectOne", array("id" => $_GET['id_exame']));
 $exames_ant = $cea->actionControl("selectByExame",array("id_exame" => $_GET['id_exame']));
 $alteracoes_coroa = $cac->actionControl("selectByExame",array("id_exame" => $_GET['id_exame']));
 $alteracoes_raiz = $car->actionControl("selectByExame",array("id_exame" => $_GET['id_exame']));
 $alteracoes_coa = $cacoa->actionControl("selectByExame",array("id_exame" => $_GET['id_exame']));
 $alteracoes_periapice = $cap->actionControl("selectByExame",array("id_exame" => $_GET['id_exame']));
-$dic = array("carie" => "Cárie", "recidiva_carie" => "Recidiva de cárie", "linha_adesivo_dentinario" => "Linha de adesivo dentinário", "material_restaurador_radiolucido" => "Material restaurador radiolúcido", "preparo_cavitario" => "Preparo cavitário", "deficiencia_adaptacao_restauracao" => "Deficiência na adaptação de restauração", "trepanacao" => "Trepanação", "fratura_coronaria" => "Fratura coronária", "erosao" => "Erosão", "abrasao" => "Abrasão", "atricao" => "Atrição", "hipoplasia_esmalte" => "Hipoplasia do esmalte", "material_forrador_radiopaco" => "Material forrador radiopaco", "material_restaurador_radiopaco" => "Material resturador radiopaco", "coroa_pilar_protetico" => "Coroa/ pilar protético", "pontico" => "Pôntico", "calculo"=> "Cálculo", "perola_esmalte" => "Pérola de esmalte", "cuspide_garra" => "Cúspide em garra", "nodulo_pulpar" => "Nódulo pulpar", "atresia_camara" => "Atresia de câmara pulpar", "cingulo_invaginado" => "Cíngulo invaginado", "dens_in_dente" => "Dens in dente", "material_base" => "Material de base", "retentor_intrarradicular" => "Retentor intrarradicular", "braquete" => "Braquete", "aparato_orto" => "Aparato ortodôntico", "contencao_metalica" => "Contenção metálica", "rizogenese_incompleta" => "Rizogênese incompleta", "rizolise" => "Rizólise", "reabsorcao_dentinaria_interna" => "Reabsorção dentinária interna","reabsorcao_dentinaria_externa" => "Reabsorção dentinária externa", "canais_colaterais" => "Canais colaterais", "carie_radicular" => "Cárie radicular", "restauracao_radiolucida" => "Restauração radiolúcida", "fratura_radicular" => "Fratura radicular", "perfuracao" => "Perfuração", "preparo_protetico" => "Preparo protético", "espaco_vazio" => "Espaço vazio", "apicetomia" => "Apicetomia", "restauracao_parietal" => "Restauração parietal", "restauracao_radiopaca" => "Restauração radiopaca", "tratamento_endodontico" => "Tratamento endodôntico", "retentor_intrarradicular_raiz" => "Retentor intrarradicular", "obturacao_retrograda" => "Obturação retrógrada", "anquilose" => "Anquilose", "atresia_conduto_radicular" => "Atresia do conduto radicular", "calculo_raiz" => "Cálculo dentário", "hipercementose" => "Hipercementose", "agulhas_calcicas" => "Agulhas cálcicas", "instrumento_endodontico_fraturado" => "InstrumWento endodôntico fraturado", "continuidade_lamina_dura" => "Solução de continuidade da lâmina dura", "espessamento_espaco_ligamento" => "Espessamento do espaço do ligamento periodontal", "area_radiolucida_apical" => "Área radiolúcida apical", "area_radiopaca_apical" => "Área radiopaca apical", "perda_ossea_generalizada" => "Perda óssea generalizada", "perda_ossea_generalizada2" => "Perda óssea generalizada", "perda_ossea_localizadav" => "Perda óssea localizada vertical", "perda_ossea_localizadah" => "Perda óssea localizada horizontal", "esfumacamento" => "Esfumaçamento", "endoperio" => "Endopério", "lesao_furca" => "Lesão de furca");
+$alteracoes_osseo = $cato->actionControl("selectByExame",array("id_exame" => $_GET['id_exame']));
+$alteracoes_mole = $catm->actionControl("selectByExame",array("id_exame" => $_GET['id_exame']));
+$alteracoes_atm = $caatm->actionControl("selectByExame",array("id_exame" => $_GET['id_exame']));
+$dic = array("carie" => "Cárie", "recidiva_carie" => "Recidiva de cárie", "linha_adesivo_dentinario" => "Linha de adesivo dentinário", "material_restaurador_radiolucido" => "Material restaurador radiolúcido", "preparo_cavitario" => "Preparo cavitário", "deficiencia_adaptacao_restauracao" => "Deficiência na adaptação de restauração", "trepanacao" => "Trepanação", "fratura_coronaria" => "Fratura coronária", "erosao" => "Erosão", "abrasao" => "Abrasão", "atricao" => "Atrição", "hipoplasia_esmalte" => "Hipoplasia do esmalte", "material_forrador_radiopaco" => "Material forrador radiopaco", "material_restaurador_radiopaco" => "Material resturador radiopaco", "coroa_pilar_protetico" => "Coroa/ pilar protético", "pontico" => "Pôntico", "calculo"=> "Cálculo", "perola_esmalte" => "Pérola de esmalte", "cuspide_garra" => "Cúspide em garra", "nodulo_pulpar" => "Nódulo pulpar", "atresia_camara" => "Atresia de câmara pulpar", "cingulo_invaginado" => "Cíngulo invaginado", "dens_in_dente" => "Dens in dente", "material_base" => "Material de base", "retentor_intrarradicular" => "Retentor intrarradicular", "braquete" => "Braquete", "aparato_orto" => "Aparato ortodôntico", "contencao_metalica" => "Contenção metálica", "rizogenese_incompleta" => "Rizogênese incompleta", "rizolise" => "Rizólise", "reabsorcao_dentinaria_interna" => "Reabsorção dentinária interna","reabsorcao_dentinaria_externa" => "Reabsorção dentinária externa", "canais_colaterais" => "Canais colaterais", "carie_radicular" => "Cárie radicular", "restauracao_radiolucida" => "Restauração radiolúcida", "fratura_radicular" => "Fratura radicular", "perfuracao" => "Perfuração", "preparo_protetico" => "Preparo protético", "espaco_vazio" => "Espaço vazio", "apicetomia" => "Apicetomia", "restauracao_parietal" => "Restauração parietal", "restauracao_radiopaca" => "Restauração radiopaca", "tratamento_endodontico" => "Tratamento endodôntico", "retentor_intrarradicular_raiz" => "Retentor intrarradicular", "obturacao_retrograda" => "Obturação retrógrada", "anquilose" => "Anquilose", "atresia_conduto_radicular" => "Atresia do conduto radicular", "calculo_raiz" => "Cálculo dentário", "hipercementose" => "Hipercementose", "agulhas_calcicas" => "Agulhas cálcicas", "instrumento_endodontico_fraturado" => "InstrumWento endodôntico fraturado", "continuidade_lamina_dura" => "Solução de continuidade da lâmina dura", "espessamento_espaco_ligamento" => "Espessamento do espaço do ligamento periodontal", "area_radiolucida_apical" => "Área radiolúcida apical", "area_radiopaca_apical" => "Área radiopaca apical", "perda_ossea_generalizada" => "Perda óssea generalizada", "perda_ossea_generalizada2" => "Perda óssea generalizada", "perda_ossea_localizadav" => "Perda óssea localizada vertical", "perda_ossea_localizadah" => "Perda óssea localizada horizontal", "esfumacamento" => "Esfumaçamento", "endoperio" => "Endopério", "lesao_furca" => "Lesão de furca", "genero" => "Gênero", "cor" => "Cor", "dor" => "Dor", "parestesia" => "Parestesia", "tumefacao" => "Tumefação", "nodulo" => "Nódulo", "localizacao" => "Localização", "numero_lesoes" => "Número de lesões", "maior_diametro" => "Maior diâmetro", "aspecto_forma" => "Aspecto/forma", "centro_lesao" => "Centro da lesão", "relacao_dentes" => "Relação com dentes", "origem_lesao" => "Origem da lesão", "limites" => "Limites", "conteudo_aspecto" => "Conteúdo/aspecto", "contem_dentes" => "Contém dentes", "expansao_cortical" => "Expansão da cortical", "adelgacamento_cortical" => "Adelgaçamento cortical", "reabsorcao_radicular" => "Reabsorção radicular", "rechacamento_adjacentes" => "Rechaçamento de dentes adjacentes", "alteracao_forma_disco_esq" => "Alteração de forma do disco", "alteracao_forma_disco_dir" => "Alteração de forma do disco", "deslocamento_disco_esq" => "Deslocamento de disco", "deslocamento_disco_dir" => "Deslocamento de disco", "edema_atm_esq" => "Edema", "edema_atm_dir" => "Edema", "degeneracao_art_atm_esq" => "Degeneração articular", "degeneracao_art_atm_dir" => "Degeneração articular", "alteracoes_med_atm_esq" => "Alterações medulares", "alteracoes_med_atm_dir" => "Alterações medulares");
 ?>
 
 <div class="container wrap">
@@ -732,6 +741,8 @@ $dic = array("carie" => "Cárie", "recidiva_carie" => "Recidiva de cárie", "lin
         }
         ?>
 
+        <br>
+        <br>
         <h4>Alterações de crista óssea alveolar</h4>
 
         <?php
@@ -921,6 +932,99 @@ $dic = array("carie" => "Cárie", "recidiva_carie" => "Recidiva de cárie", "lin
                 echo '</div>';
               }
             }
+          }
+        }
+        ?>
+
+
+        <br>
+        <br>
+        <h4>Alterações de tecido ósseo</h4>
+
+        <?php
+        if(!isset($alteracoes_osseo[0])){
+          echo "Não há alterações de tecido ósseo";
+        } else{
+          foreach($alteracoes_osseo[0] as $key => $alt){
+            $texto = "";
+            if($key != "id" && $key != "id_exame" && $alt != "" && $key != "localizacao" && $key != "localizacao2" && $key != "centro_lesao" && $key != "centro_lesao2" && $key != "maior_diametro" && $key != "maior_diametro2" && $key != "conteudo_aspecto" && $key != "conteudo_aspecto2" && $key != "contem_dentes" && $key != "contem_dentes2"){
+              echo $dic[$key]. ": ";
+              $alt = explode(",", $alt);
+              foreach($alt as $al){
+
+                $al = explode("_", $al);
+                $texto .= $al[0].", ";
+              }
+              echo trim($texto,", ").".";
+              echo "<br><br class='notprint'>";
+            }
+            else if($key == "localizacao" || $key == "centro_lesao" || $key == "maior_diametro" || $key == "conteudo_aspecto" || $key == "contem_dentes"){
+              $texto .= $dic[$key]. ": ".$alteracoes_osseo[0][$key]." ".$alteracoes_osseo[0][$key."2"];
+              echo trim($texto,", ").".";
+              echo "<br><br class='notprint'>";
+            } 
+          }
+        }
+        ?>
+
+        <br>
+        <br>
+        <h4>Alterações de tecido mole</h4>
+
+        <?php
+        if(!isset($alteracoes_mole[0])){
+          echo "Não há alterações de tecido mole";
+        } else{
+          foreach($alteracoes_mole[0] as $key => $alt){
+            $texto = "";
+            if($key != "id" && $key != "id_exame" && $alt != "" && $key != "parestesia" && $key != "parestesia2" && $key != "nodulo" && $key != "nodulo2" && $key != "localizacao" && $key != "localizacao2"){
+              echo $dic[$key]. ": ";
+              $alt = explode(",", $alt);
+              foreach($alt as $al){
+
+                $al = explode("_", $al);
+                $texto .= $al[0].", ";
+              }
+              echo trim($texto,", ").".";
+              echo "<br><br class='notprint'>";
+            }
+            else if($key == "localizacao" || $key == "parestesia" || $key == "nodulo"){
+              $texto .= $dic[$key]. ": ".$alteracoes_mole[0][$key]." ".$alteracoes_mole[0][$key."2"];
+              echo trim($texto,", ").".";
+              echo "<br><br class='notprint'>";
+            } 
+          }
+        }
+        ?>
+
+        <br>
+        <br>
+        <h4>Alterações de ATM</h4>
+
+        <?php
+        if(!isset($alteracoes_atm[0])){
+          echo "Não há alterações de ATM";
+        } else{
+          $cont = 1;
+          foreach($alteracoes_atm[0] as $key => $alt){
+            if ($cont == 1){
+              echo "<h5>Esquerda</h5>";
+            } else if($cont == 8){
+              echo "<h5>Direita</h5>";
+            }
+            $texto = "";
+            if($key != "id" && $key != "id_exame" && $alt != ""){
+              echo $dic[$key]. ": ";
+              $alt = explode(",", $alt);
+              foreach($alt as $al){
+
+                $al = explode("_", $al);
+                $texto .= $al[0].", ";
+              }
+              echo trim($texto,", ").".";
+              echo "<br><br class='notprint'>";
+            }
+            $cont++;
           }
         }
         ?>
